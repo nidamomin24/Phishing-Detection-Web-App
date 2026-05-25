@@ -1,0 +1,13 @@
+flask
+pandas
+numpy
+scikit-learn
+joblib
+tldextract
+requests
+python-dotenv
+fpdf
+werkzeug
+mysqlclient
+shap
+matplotlib

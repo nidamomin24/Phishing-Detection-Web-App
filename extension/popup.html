@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><style>body{font-family:Arial;padding:10px;width:250px}</style></head>
+  <body>
+    <h4>PhishGuard</h4>
+    <p><label><input id="use_local" type="checkbox" checked> Use local API</label></p>
+    <button id="open-dashboard">Open Dashboard</button>
+    <script>
+      document.getElementById('open-dashboard').onclick = () => {
+        chrome.tabs.create({url:'http://127.0.0.1:5000/dashboard'});
+      };
+    </script>
+  </body>
+</html>
