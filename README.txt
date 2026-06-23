@@ -1,12 +1,48 @@
-Final Phishing URL Detection Project (with Login + PDF Report + MySQL)
+# Phishing Detection System
+
+A web application designed to identify potentially malicious URLs and help users detect phishing websites before visiting them.
+
 ---
-Quick start:
-1. Install requirements: pip install -r requirements.txt
-2. Create MySQL database and tables by running db_setup.sql (or run commands manually)
-3. Train model: python train_model.py  (creates phishing_model.pkl)
-4. Run app: python app.py
-5. Open: http://127.0.0.1:5000
-Notes:
-- Add VT_API_KEY and DB credentials in a .env file or set as environment variables:
-  DB_HOST, DB_USER, DB_PASS, DB_NAME, VT_API_KEY, FLASK_SECRET
-- Use /register to create an admin user (set role=admin)
+
+## Project Overview
+
+Phishing attacks are one of the most common cybersecurity threats. This project analyzes URLs and helps users determine whether a website may be safe or suspicious.
+
+---
+
+## Features
+
+- URL Analysis
+- Phishing Website Detection
+- User-Friendly Dashboard
+- URL Validation
+- Database Storage
+- Detection History Tracking
+
+---
+
+## Technologies Used
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+
+### Backend
+- Python
+- Flask
+
+### Database
+- MySQL
+
+---
+
+## System Workflow
+
+1. User enters a URL.
+2. System analyzes the URL.
+3. Detection logic evaluates risk factors.
+4. Result is displayed to the user.
+5. Detection history is stored in the database.
+
+---
